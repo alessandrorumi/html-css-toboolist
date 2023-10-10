@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: rgb(237, 235, 235);
+  background-color: rgb(242, 249, 249);
   font-family: 'Roboto', sans-serif;
 }
 
@@ -12,27 +12,27 @@ header {
 }
 
 #logo {
-  height: 60px;
-  vertical-align: middle;
-  line-height: 60px;
+ vertical-align: middle;
+ height: 60px;
 }
 
-#logo-text {
+#logo-heading {
   font-family: 'Roboto', sans-serif;
-  font-size: 35px;
+  font-size: 40px;
+  vertical-align: middle;
 }
 
 main {
-  width: 80%;
+  width: 70%;
   margin: 40px auto 20px auto;
   background-color: white;
-  height: 500px;
   border-radius: 5px;
 }
 
 .container-main {
   padding-left: 30px;
   padding-top: 10px;
+  padding-bottom: 20px;
 }
 
 #button-one {
