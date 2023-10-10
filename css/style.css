@@ -3,6 +3,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   background-color: lightgray;
+  font-family: 'Roboto', sans-serif;
 }
 
 header {
@@ -46,4 +47,26 @@ main {
   border: 1px solid lightgray;
   background-color: white;
   border-radius: 3px;
+}
+
+.tasks {
+  border-top: 2px solid lightgray;
+  margin-top: 10px;
+  padding-top: 20px;
+}
+
+.description-task {
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.check-task {
+  color: green;
+  display: inline-block;
+  border: solid 1px green;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  margin-right: 10px;
 }
