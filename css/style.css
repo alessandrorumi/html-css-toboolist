@@ -55,30 +55,53 @@ main {
   padding-top: 20px;
 }
 
-.description-task {
-  font-size: 14px;
-  line-height: 25px;
+.task {
+  margin-bottom: 20px;
 }
 
-.check-task {
+.description-task {
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 15px;
+}
+
+.check-task, .cross-task {
   display: inline-block;
   color: green;
   display: inline-block;
   border: solid 1px green;
   border-radius: 50%;
-  width: 25px;
-  height: 25px;
+  width: 20px;
+  height: 20px;
   text-align: center;
   margin-right: 10px;
 }
 
-.preom {
+.cross-task {
+color: red;
+border: 1px solid red;
+}
+
+.edit, .goals, .recruit, .mobile {
   color: white;
   width: 70px;
-  height: 25px;
+  height: 20px;
   display: inline-block;
   background-color: rgb(3, 117, 174);
   text-align: center;
   border-radius: 12px;
   margin-left: 5px;
+  font-size: 12px;
+}
+
+.goals {
+  background-color: rgb(127, 5, 175);
+}
+
+.recruit {
+  background-color: rgb(7, 186, 129);
+}
+
+.mobile {
+  background-color: rgb(198, 113, 9);
 }
