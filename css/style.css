@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: lightgray;
+  background-color: rgb(237, 235, 235);
   font-family: 'Roboto', sans-serif;
 }
 
@@ -26,7 +26,7 @@ main {
   width: 80%;
   margin: 40px auto 20px auto;
   background-color: white;
-  height: 400px;
+  height: 500px;
   border-radius: 5px;
 }
 
@@ -59,6 +59,10 @@ main {
   margin-bottom: 20px;
 }
 
+.new-task {
+  margin-bottom: 10px;
+}
+
 .description-task {
   font-size: 14px;
   line-height: 20px;
@@ -82,7 +86,7 @@ color: red;
 border: 1px solid red;
 }
 
-.edit, .goals, .recruit, .mobile {
+.edit, .goals, .recruit, .mobile, .website, .sales {
   color: white;
   width: 70px;
   height: 20px;
@@ -104,4 +108,12 @@ border: 1px solid red;
 
 .mobile {
   background-color: rgb(198, 113, 9);
+}
+
+.website {
+background-color: rgb(186, 8, 117);
+}
+
+.sales {
+  background-color: rgb(140, 221, 17);
 }
