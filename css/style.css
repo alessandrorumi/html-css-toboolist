@@ -30,9 +30,12 @@ main {
 }
 
 .container-main {
-  padding-left: 30px;
   padding-top: 10px;
   padding-bottom: 20px;
+}
+
+section {
+  padding-left: 20px;
 }
 
 #button-one {
@@ -49,12 +52,16 @@ main {
   border-radius: 3px;
 }
 
-.task {
+.task, .task-nobord {
   margin-bottom: 20px;
-  margin-bottom: 20px;
-  border-top: 2px solid lightgray;
+  padding-left: 20px;
+  border-top: 2px solid rgb(242, 249, 249);
   margin-top: 10px;
   padding-top: 20px;
+}
+
+.task-nobord {
+  border-top: none;
 }
 
 .new-task {
