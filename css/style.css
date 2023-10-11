@@ -49,14 +49,12 @@ main {
   border-radius: 3px;
 }
 
-.tasks {
+.task {
+  margin-bottom: 20px;
+  margin-bottom: 20px;
   border-top: 2px solid lightgray;
   margin-top: 10px;
   padding-top: 20px;
-}
-
-.task {
-  margin-bottom: 20px;
 }
 
 .new-task {
